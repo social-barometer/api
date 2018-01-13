@@ -1,0 +1,26 @@
+{
+  "name": "sboptions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "option_name": {
+      "type": "string",
+      "required": true
+    },
+    "option_value": {
+      "type": "string",
+      "required": true
+    },
+    "user": {
+      "type": "string",
+      "default": "all"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

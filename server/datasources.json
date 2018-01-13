@@ -1,0 +1,12 @@
+{
+  "sbapi": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "sbapi",
+    "password": "skree123Kwark!",
+    "name": "sbapi",
+    "user": "sbapiuser",
+    "connector": "mysql"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "eventPost",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "event_id": {
+      "type": "number"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "analyzed": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sentiment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "event_id": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "happiness": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

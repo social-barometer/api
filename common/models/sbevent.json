@@ -1,0 +1,33 @@
+{
+  "name": "sbevent",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "creator_id": {
+      "type": "number",
+      "required": true
+    },
+    "eventName": {
+      "type": "string"
+    },
+    "creationTime": {
+      "type": "date"
+    },
+    "startTime": {
+      "type": "date"
+    },
+    "endTime": {
+      "type": "date"
+    },
+    "location": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
